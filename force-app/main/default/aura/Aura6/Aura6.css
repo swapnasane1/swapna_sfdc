@@ -1,0 +1,34 @@
+.THIS.maincontainer {
+			border:2px solid green;    
+		}
+		.THIS.secondcontainer{
+			margin:50px;
+			max-width: 50%;
+			font-size: 16px;
+			color:red;
+		}
+		
+		.THIS .balcktext{
+			color:black;
+		}
+
+/**.THIS.maincontainer {
+			border:2px solid green;
+			margin:50px;
+			max-width: 50%;
+			font-size: 16px;
+			color:red;
+		}
+		
+		.THIS.maincontainer span.blacktext{
+			color:black;
+		}
+
+		.THIS span.blacktext{
+			color:black;
+		}
+	
+
+		.THIS .blacktext{
+			color:black;
+		}**/

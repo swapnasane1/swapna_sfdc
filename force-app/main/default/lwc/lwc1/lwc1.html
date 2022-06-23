@@ -1,0 +1,20 @@
+<template>
+<!--    <div>
+        <h1 class="header" >LWC component in vs</h1>
+        <h2>Hello</h2>
+        <p>welcome to lwccomp1 </p>
+    </div>-->
+    <div class="maincontainone" >
+        <h2 class="slds-align_absolute-center headcls">LWC first component</h2> 
+        <lightning-input value={staff} label={stafflabel}></lightning-input><br/>
+        <p><b>Training Details : </b><lightning-formatted-text value={trainingdetails} ></lightning-formatted-text></p><br/>
+        <b>stdsample : </b>{stdsample}<br/>
+    </div>
+    <div>
+					<lightning-button variant="brand" label="InvokeJs" title="Looks like a link" onclick={thirdFun} class="slds-m-left_x-small"></lightning-button>
+					<lightning-button variant="brand" label="UpdateStaff" title="Looks like a link" onclick={updateStaffFun} class="slds-m-left_x-small"></lightning-button> <br/>
+					
+				</div>
+  
+    
+</template>

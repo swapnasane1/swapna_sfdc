@@ -1,0 +1,9 @@
+<aura:component 
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                access="global" >
+    
+    Course:sfdc<br/>
+     Module:lightning<br/>
+    Duration:sfdc<br/>
+	
+</aura:component>

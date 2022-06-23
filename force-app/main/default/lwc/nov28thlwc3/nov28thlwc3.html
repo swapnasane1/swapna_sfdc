@@ -1,0 +1,50 @@
+<template>
+ <h1 class="header">This  is third lwc component</h1> 
+
+ <div>
+     <div class="second">
+<lightning-input type="text"  label=" Developer Name" value="swapna"  class="slds-m-top_medium"></lightning-input>
+<lightning-input type="email" label="Email address" value="swapnasane1@gmail.com"></lightning-input>
+<lightning-input type="text"  label=" address"   class="slds-m-top_medium"></lightning-input>
+<lightning-formatted-address
+street="121 Spear St."
+city="San Francisco"
+country="US"
+province="CA"
+postal-code="94105"
+></lightning-formatted-address>
+<lightning-input type="date" label="Date value" class="slds-m-top_medium"></lightning-input>
+<lightning-input type="number" label= "Enter Batch number" class="slds-m-top_medium"></lightning-input>
+<lightning-input type="password" label="Enter password value" placeholder="maximum password length is 8"  class="slds-m-top_medium"></lightning-input>
+<lightning-input type="checkbox" label="is fees paid" class="slds-m-top_medium"></lightning-input>
+
+
+
+     </div>
+     <div class="card">
+        <lightning-card >
+            <div slot="title">
+               <span >LWC card</span>
+               <span><lightning-icon icon-name="standard:settings" size="megium"></lightning-icon></span>
+            </div>
+            <lightning-button label="New" variant="brand" slot="actions" ></lightning-button>
+            <div  class="slds-p-left_x-large">This is body of the card</div>
+            <span slot="footer">My footer</span>
+        </lightning-card>
+        
+        </div>
+ <div>
+    <lightning-button variant="brand" label="clickit" disabled ></lightning-button>
+    <lightning-button variant="destructive" label="swapna"></lightning-button>
+    <lightning-button variant="success" label="shivababa"></lightning-button>
+ </div>
+ <div>
+<lightning-icon icon-name="doctype:attachment" size="small" ></lightning-icon>
+<lightning-icon icon-name="utility:download" ></lightning-icon>
+<lightning-icon icon-name="action:delete" ></lightning-icon>
+<lightning-icon icon-name="standard:settings" ></lightning-icon>
+<lightning-icon icon-name="custom:custom43" size="large" ></lightning-icon>
+</div>
+
+</div>
+</template>

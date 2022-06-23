@@ -1,0 +1,4 @@
+<aura:component implements="force:appHostable" >
+    <p style="color:red; border:5px solid; font-weight:bold; text-alignment:center;">Aura component3</p>
+	
+</aura:component>

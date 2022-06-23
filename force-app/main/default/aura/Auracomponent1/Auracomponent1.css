@@ -1,0 +1,7 @@
+.THIS.maincontainer {
+    border:10px solid green;
+				margin:50px;
+				max-width: 100%;
+				font-size: 25px;
+				color:red;
+}

@@ -1,0 +1,26 @@
+.THIS.myseconddiv{
+    
+    color:green;
+    border:10px solid yellow;
+     background-color:red;
+    text-align:center;
+     margin-left:200px;
+     font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+    width:700px;
+
+}
+.THIS p{
+     border:2px solid red;
+    color:yellow;
+    background-color:blue;
+     width:700px;
+    margin-left:200px;
+     text-align:center;
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+    
+    
+}

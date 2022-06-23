@@ -1,0 +1,14 @@
+<aura:component 
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" 
+                access="global" >
+    
+    <div>
+        Name:swapna<br/>
+        Age:33<br/>
+        Address:Atlanta<br/>
+        
+    
+    
+    </div>
+	
+</aura:component>

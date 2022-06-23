@@ -1,0 +1,30 @@
+<apex:page showHeader="false">
+   <head>
+                    <script type="application/javascript">   
+                        function myfun(){
+                            debugger;
+                            var divle = document.getElementById('main-div'); //like fetching the database records into apex using soql
+                            alert('hi....');
+                            alert(divle);
+                        }
+                        
+                    </script>
+                    
+                </head>
+                <body>
+                    <input type="button" value="invokefu" onclick="myfun();"></input>
+                    <div id="main-div">
+                        <span>This span 1 main div</span>
+                        <span>This span 1 main div</span>
+                        
+                    </div>
+                    <p> This para 1</p>
+                    
+                    
+                </body>
+                
+           
+       
+    
+    
+</apex:page>

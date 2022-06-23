@@ -1,0 +1,4 @@
+<aura:event type="component" description="Event template" >
+<aura:attribute name="StaffName" type="string" />
+<aura:attribute name="Batchcount" type="Integer" />
+</aura:event>

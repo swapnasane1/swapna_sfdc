@@ -1,0 +1,18 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<aura:attribute name="empname" type="string" default="swapna" />
+      <aura:attribute name="numberofemployees" type="integer" default="200" required="true" description="" />
+        <aura:attribute name="Joiningdate" type="Date" default="2020-10-11" />
+      <aura:attribute name="Joiningdatetime" type="DateTime" default="2020-10-11" />
+      <aura:attribute name="salary" type="Decimal" default="43555" />
+      <aura:attribute name="Isreceived" type="Boolean" default="true" />
+    <div class="slds-text-align_left  main-container">
+        <lightning:button label="swapna"/>
+        <lightning:input  type="string" value="{!v.empname}" />
+        <lightning:input  type="integer" value="{!v.numberofemployees}" />
+        <lightning:input  type="decimal" value="{!v.salary}" />
+        <lightning:input  type="checkbox" checked="{!v.Isreceived}" />
+        <lightning:input  type="checkbox button" checked="{!v.Isreceived}" />
+        <lightning:input  type="date" value="{!v.Joiningdate}" />
+    </div>
+
+</aura:component>

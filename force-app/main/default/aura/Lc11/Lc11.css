@@ -1,0 +1,31 @@
+div.THIS{
+    background-color:red;
+    height:20px;
+    border:10px solid green;
+    width:50%;
+    margin:20px;
+    padding:20px;
+    
+    
+}
+
+.THIS p{
+    background-color:yellow;
+    height:20px;
+    border:10px solid green;
+    width:200%;
+    margin:20px;
+    padding:20px;
+    
+    
+}
+
+h1.THIS{
+    background-color:yellow;
+    height:20px;
+    border:10px dotted purple;
+    width:80%;
+    margin:20px;
+    padding:20px;
+    
+}

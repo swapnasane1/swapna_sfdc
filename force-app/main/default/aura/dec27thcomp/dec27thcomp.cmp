@@ -1,0 +1,4 @@
+<aura:component>
+    <h1 class="header">This is my first auracomponent</h1>
+
+</aura:component>

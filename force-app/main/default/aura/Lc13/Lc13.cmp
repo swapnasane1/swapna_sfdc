@@ -1,0 +1,14 @@
+<aura:component 
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                access="global" >
+    <div class="myfirstdiv">
+    <p>This is my first para</p>
+    
+    
+    </div>
+    <div class="myseconddiv">
+    This is my first css classes
+    
+    </div>
+	
+</aura:component>

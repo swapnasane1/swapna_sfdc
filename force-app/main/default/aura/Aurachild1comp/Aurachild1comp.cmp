@@ -1,0 +1,19 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<aura:attribute name="recList" type="LIST" default="[]" />
+			
+			<div class="maincont">
+				<table border="2">
+					<tr>
+						<th>Id</th>
+						<th>Name</th>
+					</tr>
+					<aura:iteration items="{!v.recList}" var="rec">
+						<tr>
+							<td><lightning:formattedText  value="{!rec.Id}" /></td>
+							<td><lightning:formattedText  value="{!rec.Name}" /></td>
+						</tr>
+					</aura:iteration>
+				</table>
+				
+			</div>
+</aura:component>

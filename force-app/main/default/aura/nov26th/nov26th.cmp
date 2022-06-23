@@ -1,0 +1,5 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<h1 >Auracomponent </h1>
+       <c:nov28thlwc2/>
+    
+</aura:component>

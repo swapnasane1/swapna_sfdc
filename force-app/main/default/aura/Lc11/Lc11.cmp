@@ -1,0 +1,20 @@
+<aura:component 
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" 
+                access="global" >
+    <div>
+        This is my first para ,today what i have learnt has css styles, 
+        in css styles i have learnt two selecors 
+         Element selector and Class selector.
+        <p>This is another para</p>
+          </div>
+    <div >
+        <span style="margin-right:500px ;">This my span-1</span><br/>
+        <span  style="margin-left:500px ;" >This my span-2</span>
+        
+    </div>
+    
+    <h1>
+        
+        Element selector and Class selector.
+    </h1>
+</aura:component>

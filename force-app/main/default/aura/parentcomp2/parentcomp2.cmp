@@ -1,0 +1,20 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<aura:attribute name="datafromchild" type="string" default="none" />
+			<aura:attribute name="datafromchildCount" type="string" default="Zero" />
+			<aura:handler name="SFDCStaff" event="c:Auraevent1"  action="{!c.captureChildData}"/>
+			
+			<div class="maincont">
+				<div class="slds-grid">
+					<div class="slds-col slds-box">
+						<span><b>Parent Component</b></span> <hr/>
+						<span> {!v.datafromchild} </span> <br/>
+						<span> {!v.datafromchildCount} </span>
+					</div>
+					<div class="slds-col slds-box">
+						<span><b>Child Component</b></span> <hr/>
+						<c:childcomp2 ClassName="Lightning from parent comp"/>
+					</div>
+				</div>
+			</div>
+	
+</aura:component>

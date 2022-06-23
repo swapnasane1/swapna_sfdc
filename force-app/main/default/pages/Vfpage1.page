@@ -1,0 +1,32 @@
+<apex:page showHeader="false" >
+ 
+       <head>
+           <style type="text/css">
+             #pid{
+           color:red;
+           border:green 5px solid;
+           padding:15px;
+           font-size:15px;
+           display:inline-block;
+           }
+           
+           </style>
+        
+           
+    </head> 
+           <body>
+               
+               
+               <div style="border:5px red solid">
+                   this is my first div
+               </div>
+               <p id="pid">
+                 this is my first para  
+               </p>
+           </body>
+      
+           
+  
+    
+    
+</apex:page>

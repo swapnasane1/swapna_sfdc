@@ -1,0 +1,30 @@
+<aura:component 
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                access="global" >
+    <div>
+     <div>
+        This is my first para ,today what i have learnt has css styles, 
+        in css styles i have learnt two selecors 
+         Element selector and Class selector.
+        <p>This is another para</p>
+          </div>
+        <h1 class="firstheader">
+        This is my first para ,today what i have learnt has css styles, 
+        in css styles i have learnt two selecors 
+         Element selector and Class selector.
+        </h1>
+        <h2 class="secondheader">
+        Element selector and Class selector.
+         </h2>
+        <p id="firstpara"> 
+            
+            This is my first para ,today what i have learnt has css styles
+        
+        
+        </p>
+    
+    
+    
+    </div>
+	
+</aura:component>

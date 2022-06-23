@@ -1,0 +1,60 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                access="global" >
+    
+    <html>
+        <body>
+            <p>this is my second aura component</p>
+            <body>
+            <h1>This is my second aura componenent 1</h1> 
+            <h2>This is my second aura componenent 2</h2>
+            <h3>tThis is my second aura componenent 3</h3>
+            <h4>This is my second aura componenent 4</h4>
+            <h5>This is my second aura componenent 5</h5>
+            <h6>This is my second aura componenent 6</h6>
+            </body>
+            <div>
+                <a href="https://www.vlrtraining.in/" target="-blank">visit www.vlronline.in!</a>
+            </div>
+            <div>
+                <ul>
+                    <li>SFDC</li>
+                    <li>AWS</li>
+                    
+                    <option value="sfdc Admin">Admin</option>
+                    
+                    
+                    <li>PYTHON</li>S
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            
+            <label for="SFDC">Choose a SFDC</label>
+            <select name="SFDC" id="sfdc">       
+                
+                <option value="sfdc Admin">Admin</option>
+                <option value="sfdc Develop">Develop</option>
+                <option value="sfdc Integration">Ing</option>
+                <option value="sfdc Lightning">lwc</option>
+                
+            </select>
+            <dl>
+                <ul>
+                    Salesforce
+                    <li><dd>Admin</dd></li>
+                    <li> <dt>Develop</dt></li>
+                    <li> <dt>integration</dt></li>
+                    <li><dt>Lightning</dt></li>
+                    
+                </ul>   
+            </dl>
+            <div>
+                
+                <iframe src="https://www.salesforce.com/" title="www.salesforce.com/products/sales-cloud/overview/">visit www.google.com</iframe>          
+            </div>
+            <button type="button">clickme!</button>  
+            
+        </body>
+        
+    </html>
+</aura:component>

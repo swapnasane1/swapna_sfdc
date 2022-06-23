@@ -1,0 +1,12 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <aura:attribute name="ClassName" type="string" />
+			<aura:attribute name="StaffDetails" type="string" default="Mohan Salesforce"/>
+			
+			<aura:registerEvent name="SFDCStaff" type="c:Auraevent1" />
+			
+			<div>
+				{!v.ClassName} <br/><br/>
+				<lightning:button label="Send" onclick="{!c.sendinfo}" variant="brand"/>
+			</div>
+	
+</aura:component>

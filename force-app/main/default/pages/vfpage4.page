@@ -1,0 +1,35 @@
+<apex:page showHeader="false">
+<head>
+                <script type="application/javascript">   
+                    function myfun(){
+                        debugger;
+                        var divle = document.getElementById('main-div'); //like fetching the database records into apex using soql
+                        var clsna = document.getElementsByClassName('msone'); //returns always list 
+                        var anyelm = document.querySelectorAll('#main-div'); //returns always list
+                        var clsselc = document.querySelectorAll('.msone'); //returns always list
+                        
+                        for(var i=0;i<clsna.length;i++){
+                            console.log(clsna[i]);
+                        }
+                        
+                        alert('hi....');
+                        alert(divle);
+                    }
+                    
+                </script>
+                
+            </head>
+            <body>
+                <input type="button" value="invokefu" onclick="myfun();"></input>
+                <div id="main-div">
+                    <span class="msone">This span 1 main div</span>
+                    <span>This span 1 main div</span>
+                    
+                </div>
+                <p class="msone"> This para 1</p>
+                
+                
+            </body>
+
+  
+</apex:page>

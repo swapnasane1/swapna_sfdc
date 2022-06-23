@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:lightningQuickAction" access="global" >
+                            <lightning:card title="Lightningpage">
+                                <div>Record id:{!v.recordid}</div>
+                                <div>welcome to lightningpage</div>
+    
+
+              </lightning:card>
+	
+</aura:component>

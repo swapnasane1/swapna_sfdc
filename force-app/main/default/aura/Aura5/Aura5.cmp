@@ -1,0 +1,17 @@
+<aura:component>
+    
+			<aura:attribute name="acc" type="Account"  default="{
+				'Name:'swapna';
+                'Site':'atlanta';
+                'Rating':'hot';
+
+			}"/>
+			
+			<div class="maincontainer">
+				<span class="balcktext">Account Name:</span> <ui:outputText value="{!v.acc.Name}"/> <br/>
+			   <span class="balcktext"> Account Site: </span><ui:outputText value="{!v.acc.Site}"/><br/>
+				<span class="balcktext">Account Rating:</span> <ui:outputText value="{!v.acc.Rating}"/><br/>
+			  
+			</div>
+
+</aura:component>

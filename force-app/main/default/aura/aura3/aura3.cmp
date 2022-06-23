@@ -1,0 +1,36 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <lightning:button label="swapna" />
+    <lightning:button variant="base" label="Base"/>
+    <lightning:button variant="neutral" label="Rass"/>
+    <lightning:button variant="destructive" label="click"/>        
+    <lightning:button variant="destructive" label="save"/>   
+    <lightning:button variant="brand" label="edit"/>     
+    <lightning:button variant="destructive" label="clone"/>
+    <lightning:button label="Download" iconName="utility:download" />
+    <lightning:button label="Edit" iconName="utility:edit" iconPosition="left"  variant="brand" />
+    <lightning:button label="Edit" iconName="utility:edit" iconPosition="right" variant="brand" />
+    <lightning:button label="Delete" iconName="utility:delete" iconPosition="left"  variant="destructive" />
+    <lightning:button label="Delete" iconName="utility:delete" iconPosition="right" variant="destructive" />
+    
+     <lightning:buttonIcon iconName="utility:down"  size="xx-small" alternativeText="View More" title="View More" />
+    <lightning:buttonIcon iconName="utility:down"  size="x-small" alternativeText="View More" title="View More" />
+    <lightning:buttonIcon iconName="utility:down"  size="small" alternativeText="View More" title="View More" />
+    <lightning:buttonIcon iconName="utility:down"  alternativeText="View More" title="View More" />
+     <lightning:input type="date" name="joiningdate" label="Enter a date" />
+     <lightning:input type="date" name="input2" label="Date field with a predefined value" value="2020-09-07"/>
+     <lightning:input type="date" name="input3" label="Date field with ISO8601 formatted value" value="2020-09-07T00:00:00Z"/>
+     <lightning:input type="date" name="input4" label="Date field with placeholder (desktop only)" placeholder="type here..."/>
+     <lightning:input type="toggle" label="Basic option" name="sfdc"/>
+     <lightning:input type="checkbox" label="Basic option" name="PYTHON"/>
+    <lightning:input type="checkbox" label="Required option" name="SFDC" checked="true" required="true"/>
+    <lightning:input type="checkbox" label="Disabled option" name="DOTNET" checked="true" disabled="true"/>
+    <lightning:input type="number" name="input1" label="Enter a number" />
+    <lightning:input type="number" name="input2" label="Number field with a predefined value" value="12345"/>
+    <lightning:input type="number" name="input3" label="Number field with placeholder" placeholder="type here..."/>
+    <lightning:input type="number" name="input4" readonly="true" value="123" label="Read-only number field" />
+    <lightning:input type="number" name="input5" disabled="true" value="12345" label="Disabled number field" />
+    <lightning:input type="number" name="input6" label="Number field with percentage formatter" value="0.5" formatter="percent" step="0.01"/>
+    <lightning:input type="number" name="input7" label="Number field with currency formatter" value="123.45" formatter="currency" step="0.01"/>
+   <lightning:input type="number" name="input8" required="true" value="99" label="Required number field with a maximum value of 100" max="100" />
+          
+</aura:component>

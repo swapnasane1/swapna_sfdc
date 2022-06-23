@@ -1,0 +1,22 @@
+<aura:component 
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" 
+                access="global" >
+    <div style="border: blue solid 30px;" >
+     This is shivababa, he is supremesoul,my father is a powerfulsoulI am a master son of powerful soul
+    </div>
+    <p style="color:red;">This is shivababa, he is supremesoul,<span style="border:yellow dotted;"> This is shivababa, he is supremesoul</span></p>
+    <div style="color:blue">
+   <p style="border:solid purple 20px;" >This is shivababa, he is supremesoul,my father is a powerfulsoulI am a master son of powerful soul
+</p>
+    
+    </div>
+    <div style="border: red solid 10px;">
+    
+        <p style="color:purple">This is shivababa, he is supremesoul,my father is a powerfulsoulI am a master son of powerful soul</p>
+    </div>
+    <div style="border:solid 20px red;">
+    
+        <p style="color:blue;"> This is shivababa, he is supremesoul,my father is a powerfulsoulI am a master son of powerful soul</p>
+    </div>
+	
+</aura:component>

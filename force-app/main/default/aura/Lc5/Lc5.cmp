@@ -1,0 +1,21 @@
+<aura:component 
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                access="global" >
+    
+    <aura:attribute name="employname" type="string"/>
+    <aura:attribute name="age"  type="integer" required="34"/>
+	<aura:attribute name="salary"  type="decimal" default="1000000"/>
+    <aura:attribute name="address" type="string" default="Atlanta"/>
+    <aura:attribute name="city"  type="string" description="metropolitancity"/>
+    
+    Employname: {!v.Employname}<br/>
+      Age: {!v.Age}<br/>
+	 Salary :{!v.Salary}<br/>
+    Address: {!v.Address}<br/>
+    City:{!v.city}<br/>
+	
+    <aura:attribute name="startdate" type="datetime"  default="16-7-2021"/>
+    Startdate :{!v.Startdate}<br/>
+	
+	
+</aura:component>

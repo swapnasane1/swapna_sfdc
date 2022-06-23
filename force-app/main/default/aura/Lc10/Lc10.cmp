@@ -1,0 +1,40 @@
+<aura:component 
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" 
+                access="global" >
+    <aura:html tag="style">
+   
+        
+        div{
+        color:blue;
+        border:solid 5px red;
+        padding:50px;
+        margin:50px;
+        }
+        p{
+        color:purple;
+        border:solid 5px green;
+        padding:20px;
+        margin:20px;
+        }
+        h1{
+        border:dotted green;
+        color:purple;
+        padding:50px;
+        padding-left:100px;
+        margin:20px;
+        }
+         </aura:html>
+    
+    <div>
+    This is  how we want to  apply css styles to the UI and apply different styles to the different
+        tags,both inline and internal styles
+        <span>This is swapna</span>
+        <span>This is swapna</span>
+   </div>
+    <h1>This is swapna</h1>
+    <div>
+    <p>This is  how we want to  apply css styles to the UI and apply different styles to the different
+        tags,both inline and internal styles</p>
+    </div>
+	
+</aura:component>

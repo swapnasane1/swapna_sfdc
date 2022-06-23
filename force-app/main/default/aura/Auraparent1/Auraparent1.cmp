@@ -1,0 +1,21 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                access="global"
+                controller="accparentchild"
+                >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+			<aura:attribute name="acclist" type="account[]" default="[]" />
+			
+			<div class="main-container">
+				<c:Aurachild1comp recList="{!v.acclist}"/>
+			</div>			
+
+
+
+
+
+
+
+
+
+
+</aura:component>

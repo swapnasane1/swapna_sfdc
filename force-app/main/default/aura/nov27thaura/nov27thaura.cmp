@@ -1,0 +1,8 @@
+<aura:component >
+      <c:nov28thlwc2/>
+	<h1>This is my aura component</h1>
+    <div>
+    <span>this is my span 1</span>
+        <p> this is swapna</p>
+    </div>
+</aura:component>

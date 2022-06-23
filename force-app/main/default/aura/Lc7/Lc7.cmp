@@ -1,0 +1,13 @@
+<aura:component 
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                access="global" >
+    <div style="border:solid red 40px;"  >
+    
+    this is my first component<span style="border:green solid 10px;">inside div i have used span element</span> border
+    
+    
+    </div>
+    <p style="border:blue solid 50px;">what is css means cascade style sheets,it means properties apply to the web pages
+    property name:property value;</p>
+	
+</aura:component>

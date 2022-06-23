@@ -1,0 +1,28 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                access="global" >
+ 
+                <aura:attribute name="stdnamelist" type="string[]" default="['raju','venu','venki','jani']"/>
+				<aura:attribute name="inelist" type="integer[]" default="[1,2,3,5,6,8]"/>
+				<aura:attribute name="blist" type="boolean[]" default="[true,false,false,true,true,false]"/>
+   
+				<div class="maincontainer">
+					<aura:iteration items="{!v.stdnamelist}" var="s"> 
+						{!s} <br/>
+					</aura:iteration>
+				</div>
+				
+			   <div class="maincontainer">
+					<aura:iteration items="{!v.inelist}" var="item"> 
+						{!item}  <br/>
+					</aura:iteration>
+				</div>
+				
+				<div class="maincontainer">
+					<aura:iteration items="{!v.blist}" var="dt"> 
+						{!dt}  <br/>
+					</aura:iteration>
+				</div>
+
+ 
+	
+</aura:component>

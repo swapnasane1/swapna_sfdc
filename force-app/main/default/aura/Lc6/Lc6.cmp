@@ -1,0 +1,152 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                access="global" >
+    <aura:html tag="style">
+        table,th,tr,td{
+        
+        border:solid 1px black;
+        
+      width:500px
+        }
+        table.center {
+        margin-left: auto; 
+        margin-right: auto;
+        }
+        input{
+        border:2px solid red;
+        color:red;
+        width:800px;
+        height:100px;
+        margin-left:200px;
+        padding:10px;
+        text-align:center;
+        font-size:30px;
+        font-style:italic;
+        font-weight:bold;
+        }
+        
+    </aura:html>
+    
+    <table >
+        <tr>
+            <th >s.no</th><br/>
+            <th>studentname</th><br/>
+            <th>course</th><br/>
+            <th>address</th><br/>
+            <th>city</th>
+        </tr>
+        <tr>
+            <td>1</td><br/>
+            <td>samyu</td><br/>
+            <td>sfdc</td><br/>
+            <td>116 ashford</td><br/>
+            <td>atlanta</td><br/>
+        </tr>
+        <tr>
+            <td>2</td><br/>
+            <td>Harshitha</td><br/>
+            <td>sfdc</td><br/>
+            <td>116 ashford</td><br/>
+            <td>atlanta</td><br/>
+        </tr>
+        <tr>
+            <td>3</td><br/>
+            <td>swapna</td><br/>
+            <td>sfdc</td><br/>
+            <td>116 ashford</td><br/>
+            <td>atlanta</td><br/>
+        </tr>
+        
+    </table>
+    <table style = "color:black border:1px solid black;">
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>occupation</th>
+            
+        </tr>
+        <tr>
+            <td>swapna</td>
+            <td>35</td>
+            <td>IT profession</td>
+        </tr>
+        <tr>
+            <td>swapna</td>
+            <td>35</td>
+            <td>IT profession</td>
+        </tr>
+        <tr>
+            <td>swapna</td>
+            <td>35</td>
+            <td>IT profession</td>
+        </tr>
+        
+    </table>
+    <input type="text" value="swapna is salesforce lightning developer" name="" id=""/>
+    <table style="border:1px solid black; color:red; ">
+        <tr>    
+            <th>s.no</th>    
+            <th >no</th>
+            <th>studentname</th>
+            <th>course</th>
+            <th>address</th>
+            <th>city</th>   
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>1</td>
+            <td>samyu</td>
+            <td>sfdc</td>
+            <td>116 ashford</td>
+            <td>atlanta</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>2</td>
+            <td>samyu</td>
+            <td>sfdc</td>
+            <td>116 ashford</td>
+            <td>atlanta</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>2</td>
+            <td>samyu</td>
+            <td>sfdc</td>
+            <td>116 ashford</td>
+            <td>atlanta</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>2</td>
+            <td>samyu</td>
+            <td>sfdc</td>
+            <td>116 ashford</td>
+            <td>atlanta</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>3</td>
+            <td>samyu</td>
+            <td>sfdc</td>
+            <td>116 ashford</td>
+            <td>atlanta</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>4</td>
+            <td>samyu</td>
+            <td>sfdc</td>
+            <td>116 ashford</td>
+            <td>atlanta</td>
+        </tr>
+          <tr>
+            <td>001</td>
+            <td>5</td>
+            <td>samyu</td>
+            <td>sfdc</td>
+            <td>116 ashford</td>
+            <td>atlanta</td>
+        </tr>
+  
+    </table>
+</aura:component>
